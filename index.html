@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MNails | Маникюрная студия</title>
+  <meta
+    name="description"
+    content="MNails - маникюрная студия с аккуратным сервисом, спокойной атмосферой и современным дизайном."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <script type="module" src="assets/js/main.js"></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="MNails">
+        <span class="brand__mark">M</span>
+        <span class="brand__name">MNails</span>
+      </a>
+
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="site-nav"
+        aria-label="Открыть меню"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav">
+        <a href="#services">Услуги</a>
+        <a href="#about">О студии</a>
+        <a href="#moments">Атмосфера</a>
+        <a href="#booking">Запись</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section reveal" id="hero">
+        <div class="hero__content">
+          <p class="eyebrow">Тихая эстетика ухода</p>
+          <h1>Маникюр, в котором всё выглядит уверенно и ощущается легко.</h1>
+          <p class="hero__lead">
+            MNails создаёт спокойный сервис без спешки: чистый дизайн, точная
+            форма, деликатная палитра и комфорт, к которому хочется возвращаться.
+          </p>
+
+          <div class="hero__actions">
+            <a class="button button--primary" href="#booking">Записаться</a>
+            <a class="button button--secondary" href="#services">Посмотреть услуги</a>
+          </div>
+
+          <ul class="hero__facts">
+            <li>
+              <strong>90 мин</strong>
+              <span>средняя запись</span>
+            </li>
+            <li>
+              <strong>стерильно</strong>
+              <span>инструменты и расходники</span>
+            </li>
+            <li>
+              <strong>7/7</strong>
+              <span>ежедневно с 10:00 до 21:00</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero__media">
+          <div class="hero__frame">
+            <img
+              src="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1200&q=80"
+              alt="Аккуратный маникюр в студии MNails"
+            >
+          </div>
+          <div class="hero__badge">
+            <span>signature look</span>
+            <strong>минимализм, чистая архитектура формы и мягкий блеск</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section reveal" id="services">
+        <div class="section-heading">
+          <p class="eyebrow">Что можно сделать</p>
+          <h2>Услуги, которые собирают образ без лишнего шума</h2>
+        </div>
+
+        <div class="services__grid">
+          <article class="service-card">
+            <p class="service-card__index">01</p>
+            <h3>Smart manicure</h3>
+            <p>
+              Аппаратный или комбинированный маникюр с точной обработкой кутикулы,
+              выравниванием и деликатным финишем.
+            </p>
+            <div class="service-card__meta">
+              <span>от 1 900 RUB</span>
+              <span>75-90 мин</span>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <p class="service-card__index">02</p>
+            <h3>Gel polish</h3>
+            <p>
+              Стойкое покрытие с тщательно подобранной базой, ровным бликом и
+              палитрой оттенков от молочных до графитовых.
+            </p>
+            <div class="service-card__meta">
+              <span>от 2 400 RUB</span>
+              <span>90-120 мин</span>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <p class="service-card__index">03</p>
+            <h3>Nail design</h3>
+            <p>
+              Акцентные линии, хром, микро-френч и минималистичный дизайн, который
+              поддерживает образ, а не спорит с ним.
+            </p>
+            <div class="service-card__meta">
+              <span>от 500 RUB</span>
+              <span>15-30 мин</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about section reveal" id="about">
+        <div class="about__intro">
+          <div class="section-heading">
+            <p class="eyebrow">О студии</p>
+            <h2>MNails про точность, тактильный комфорт и уверенный результат.</h2>
+          </div>
+
+          <p class="about__text">
+            Мы собрали студию как спокойное пространство для регулярного ухода:
+            удобная посадка, выверенный ритм записи, чистая эстетика и внимание к
+            деталям, которые обычно чувствуются раньше, чем замечаются.
+          </p>
+        </div>
+
+        <div class="about__details">
+          <div class="about__panel">
+            <span>Подход</span>
+            <strong>аккуратная форма, мягкая палитра, носибельный дизайн</strong>
+          </div>
+          <div class="about__panel">
+            <span>Стандарты</span>
+            <strong>одноразовые материалы, стерилизация, индивидуальный подбор базы</strong>
+          </div>
+          <div class="about__panel">
+            <span>Темп</span>
+            <strong>без спешки, с понятным временем и вниманием к пожеланиям</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="moments section reveal" id="moments">
+        <div class="section-heading">
+          <p class="eyebrow">Атмосфера</p>
+          <h2>Немного воздуха, света и красивых текстур</h2>
+        </div>
+
+        <div class="moments__grid">
+          <figure class="moment moment--large">
+            <img
+              src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?auto=format&fit=crop&w=1200&q=80"
+              alt="Рабочее место мастера маникюра"
+            >
+          </figure>
+          <figure class="moment">
+            <img
+              src="https://images.unsplash.com/photo-1519415943484-9fa1873496d4?auto=format&fit=crop&w=900&q=80"
+              alt="Палитра оттенков для маникюра"
+            >
+          </figure>
+          <figure class="moment">
+            <img
+              src="https://images.unsplash.com/photo-1610992231419-01dd50f2f7a2?auto=format&fit=crop&w=900&q=80"
+              alt="Минималистичный дизайн ногтей"
+            >
+          </figure>
+        </div>
+      </section>
+
+      <section class="booking section reveal" id="booking">
+        <div class="booking__content">
+          <div class="section-heading">
+            <p class="eyebrow">Запись</p>
+            <h2>Оставьте контакт и выберите удобное окно.</h2>
+          </div>
+
+          <p class="booking__lead">
+            Мы подтверждаем запись вручную, чтобы подобрать комфортное время и
+            заранее уточнить формат маникюра.
+          </p>
+
+          <div class="slot-picker" aria-label="Выбор времени">
+            <button class="slot-picker__item is-selected" type="button" data-slot="10:30">10:30</button>
+            <button class="slot-picker__item" type="button" data-slot="13:00">13:00</button>
+            <button class="slot-picker__item" type="button" data-slot="16:30">16:30</button>
+            <button class="slot-picker__item" type="button" data-slot="19:00">19:00</button>
+          </div>
+        </div>
+
+        <div class="booking__panel">
+          <form class="booking-form" id="booking-form">
+            <label>
+              <span>Имя</span>
+              <input type="text" name="name" placeholder="Как к вам обращаться" required>
+            </label>
+
+            <label>
+              <span>Телефон</span>
+              <input type="tel" name="phone" placeholder="+7 (999) 123-45-67" required>
+            </label>
+
+            <label>
+              <span>Услуга</span>
+              <select name="service">
+                <option value="Smart manicure">Smart manicure</option>
+                <option value="Gel polish">Gel polish</option>
+                <option value="Gel polish + design">Gel polish + design</option>
+              </select>
+            </label>
+
+            <input type="hidden" name="slot" id="selected-slot" value="10:30">
+
+            <button class="button button--primary button--full" type="submit">
+              Отправить заявку
+            </button>
+
+            <p class="booking-form__note" id="form-note">
+              Выбрано время: <strong>10:30</strong>
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>MNails</p>
+      <p>ул. Чистая линия, 8</p>
+      <p><a href="tel:+79991234567">+7 (999) 123-45-67</a></p>
+      <p>&copy; <span id="year"></span></p>
+    </footer>
+  </div>
+</body>
+</html>

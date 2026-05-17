@@ -8,21 +8,13 @@
 
 ## Скриншоты
 
-### Главная страница
+![Hero секция](/Nnnekita/nails-studio-sample/raw/main/screenshots/hero.png)
 
-[![Hero секция](/Nnnekita/nails-studio-sample/raw/main/screenshots/hero.png)](/Nnnekita/nails-studio-sample/blob/main/screenshots/hero.png)
+![Услуги](/Nnnekita/nails-studio-sample/raw/main/screenshots/services.png)
 
-### Услуги
+![О студии](/Nnnekita/nails-studio-sample/raw/main/screenshots/about.png)
 
-[![Услуги](/Nnnekita/nails-studio-sample/raw/main/screenshots/services.png)](/Nnnekita/nails-studio-sample/blob/main/screenshots/services.png)
-
-### О студии
-
-[![О студии](/Nnnekita/nails-studio-sample/raw/main/screenshots/about.png)](/Nnnekita/nails-studio-sample/blob/main/screenshots/about.png)
-
-### Форма записи
-
-[![Запись](/Nnnekita/nails-studio-sample/raw/main/screenshots/booking.png)](/Nnnekita/nails-studio-sample/blob/main/screenshots/booking.png)
+![Форма записи](/Nnnekita/nails-studio-sample/raw/main/screenshots/booking.png)
 
 ## Технологии
 

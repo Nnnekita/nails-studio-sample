@@ -8,13 +8,13 @@
 
 ## Скриншоты
 
-![Hero секция](/Nnnekita/nails-studio-sample/raw/main/screenshots/hero.png)
+![Hero секция](screenshots/hero.png)
 
-![Услуги](/Nnnekita/nails-studio-sample/raw/main/screenshots/services.png)
+![Услуги](screenshots/services.png)
 
-![О студии](/Nnnekita/nails-studio-sample/raw/main/screenshots/about.png)
+![О студии](screenshots/about.png)
 
-![Форма записи](/Nnnekita/nails-studio-sample/raw/main/screenshots/booking.png)
+![Форма записи](screenshots/booking.png)
 
 ## Технологии
 

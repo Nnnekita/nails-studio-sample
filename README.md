@@ -57,7 +57,3 @@ npm run preview
 ## Демо
 
 Откройте `dist/index.html` после сборки или запустите `npm run dev` для локальной разработки.
-
----
-
-© 2026 MNails

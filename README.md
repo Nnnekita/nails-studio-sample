@@ -1,29 +1,69 @@
 # MNails — Маникюрная студия
 
-Современный лендинг для маникюрной студии с минималистичным дизайном, плавными анимациями и формой записи. Создан с использованием Vite, SCSS и чистого JavaScript.
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Deployed-32CD32?style=for-the-badge&logo=github)](https://nnnekita.github.io/nails-studio-sample/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![SCSS](https://img.shields.io/badge/SCSS-CC6699?style=for-the-badge&logo=sass&logoColor=white)](https://sass-lang.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-## Демо
+Современный лендинг для маникюрной студии с минималистичным дизайном, плавными анимациями и формой записи.
 
-🌐 [Посмотреть демо](https://nnnekita.github.io/nails-studio-sample/)
+## 📸 Скриншоты
 
-## Скриншоты
+![Hero секция](./screenshots/hero.png)
 
-![Hero секция](https://github.com/Nnnekita/nails-studio-sample/raw/master/screenshots/hero.png)
+*Главный экран с CTA-кнопками и фактами о студии*
 
-![Услуги](https://github.com/Nnnekita/nails-studio-sample/raw/master/screenshots/services.png)
+![Услуги](./screenshots/services.png)
 
-![О студии](https://github.com/Nnnekita/nails-studio-sample/raw/master/screenshots/about.png)
+*Карточки услуг с ценами и временем*
 
-![Форма записи](https://github.com/Nnnekita/nails-studio-sample/raw/master/screenshots/booking.png)
+![Форма записи](./screenshots/booking.png)
 
-## Технологии
+*Форма записи с выбором временного слота*
+
+## ✨ Возможности
+
+- 🎨 Минималистичный дизайн с тёплой палитрой
+- 📱 Полностью адаптивный дизайн (мобильные, планшеты, десктоп)
+- 📝 Форма записи с выбором времени
+- ✨ Плавные анимации появления секций при скролле
+- 🍔 Мобильное меню-бургер с анимацией
+- 🖼️ Изображения с hover-эффектами
+- ♿ Доступность (aria-атрибуты, семантическая разметка)
+
+## 🛠 Стек
 
 - **HTML5** — семантическая разметка, a11y-атрибуты
 - **SCSS** — переменные, миксины, BEM-нейминг, адаптив
-- **JavaScript** — IntersectionObserver, плавный скролл, мобильное меню, форма записи
+- **JavaScript** — IntersectionObserver, плавный скролл, мобильное меню
 - **Vite** — сборка, dev-сервер, HMR
 
-## Структура проекта
+## 🚀 Быстрый старт
+
+### Требования
+- Node.js 18+
+- npm или yarn
+
+### Установка
+
+```bash
+# Клонирование репозитория
+git clone https://github.com/Nnnekita/nails-studio-sample.git
+cd nails-studio-sample
+
+# Установка зависимостей
+npm install
+
+# Запуск dev-сервера
+npm run dev
+
+# Сборка для продакшена
+npm run build
+```
+
+Открой [http://localhost:5173](http://localhost:5173) в браузере.
+
+## 📁 Структура проекта
 
 ```
 nails-studio-sample/
@@ -33,44 +73,24 @@ nails-studio-sample/
 │   │   └── style.scss      # Исходные стили
 │   └── js/
 │       └── main.js         # Интерактивность
-├── screenshots/            # Скриншоты для README
+├── screenshots/            # Скриншоты
 ├── vite.config.js          # Конфигурация Vite
 └── package.json
 ```
 
-## Секции лендинга
+## 🌐 Демо
 
-1. **Шапка** — sticky-навигация с blur-эффектом, меняет стиль при скролле
-2. **Hero** — полноэкранный блок с заголовком, CTA-кнопками и фактами о студии
-3. **Услуги** — 3 карточки: Smart manicure, Gel polish, Nail design с ценами и временем
-4. **О студии** — описание подхода, стандарты стерильности, темп работы
-5. **Атмосфера** — галерея изображений с hover-эффектами
-6. **Форма записи** — выбор времени, имя, телефон, услуга, подтверждение
+[Живая демонстрация](https://nnnekita.github.io/nails-studio-sample/)
 
-## Особенности
+## 📝 Лицензия
 
-- 🎨 Минималистичный дизайн с тёплой палитрой
-- 📱 Полностью адаптивный дизайн (мобильные, планшеты, десктоп)
-- 📝 Форма записи с выбором временного слота
-- ✨ Плавные анимации появления секций при скролле
-- 🍔 Мобильное меню-бургер с анимацией
-- 🖼️ Изображения с hover-эффектами
-- ♿ Доступность (aria-атрибуты, семантическая разметка)
+MIT
 
-## Запуск
+## 👤 Автор
 
-```bash
-# Установка зависимостей
-npm install
+**Nnnekita**
+- GitHub: [@Nnnekita](https://github.com/Nnnekita)
 
-# Dev-сервер с hot reload
-npm run dev
+---
 
-# Продакшен-сборка
-npm run build
-
-# Предпросмотр сборки
-npm run preview
-```
-
-Или просто откройте `dist/index.html` в браузере.
+© 2026 Nnnekita. Создано на Vite и SCSS.

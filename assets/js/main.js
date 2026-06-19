@@ -1,4 +1,4 @@
-import "../scss/style.scss";
+import("../scss/style.scss").catch(() => {});
 
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector(".site-header");
